@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCP Table</title>
+
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/table.css">
+    <link rel="stylesheet" href="../css/search-section.css">
+
+    <script defer type="text/javascript" src="../js/p2_tcp_table.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1> TCP Conn. Table </h1>
+        <button class="refresh"> Refresh </button>
+        <div class="control-buttons">
+            <button> Previous </button>
+            <button> Home </button>
+            <button> Next </button>
+        </div>
+    </header>
+
+    <section>
+        <input type="text" placeholder="State" id="txtState"/>
+        <input type="text" placeholder="Source IP" id="txtSrcIp"/>
+        <input type="text" placeholder="Source Port" id="txtSrcPort"/>
+        <input type="text" placeholder="Destination IP" id="txtDestIp"/>
+        <input type="text" placeholder="Destination Port" id="txtDestPort"/>
+    </section>
+
+    <table>
+        <thead>
+            <tr>
+                <th> Index </th>
+                <th> State </th>
+                <th> Source IP Address </th>
+                <th> Source Port Number </th>
+                <th> Destination IP Address </th>
+                <th> Destination Port Number </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            
+        </tbody>
+    </table>
+</body>
+</html>

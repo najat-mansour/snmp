@@ -1,0 +1,72 @@
+* {
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+*::selection {
+    background-color: goldenrod;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 214, 219);
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 24pt;
+    margin-right: 20px; 
+    position: relative;
+    left: 50px;
+}
+
+.refresh {
+    position: relative;
+    left: 410px;
+}
+
+.refresh:hover {
+    color: white;
+    background-color: black;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.control-buttons {
+    position: relative;
+    left: 700px;
+}
+
+.control-buttons button, .refresh {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 120px;
+    cursor: pointer;
+    margin-right: 20px; 
+}
+
+.control-buttons button:hover {
+    color: white;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.control-buttons button:nth-child(1):hover {
+    border: solid 1px red;
+    background-color: red;
+}
+
+.control-buttons button:nth-child(2):hover {
+    border: solid 1px #b58b0e;
+    background-color: #b58b0e;
+}
+
+.control-buttons button:nth-child(3):hover {
+    border: solid 1px green;
+    background-color: green;
+}

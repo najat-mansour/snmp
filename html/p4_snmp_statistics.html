@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNMP Statistics</title>
+
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/table.css">
+
+    <script defer type="text/javascript" src="../js/p4_snmp_statistics.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1> SNMP Statistics </h1>
+        <button class="refresh"> Refresh </button>
+        <div class="control-buttons">
+            <button> Previous </button>
+            <button> Home </button>
+            <button> Next </button>
+        </div>
+    </header> 
+
+    <div class="table-container">
+        <p> SNMP Statistics by <span> snmp2_get() </span> </p>
+        <table>
+            <thead>
+                <tr>
+                    <th> Index </th>
+                    <th> Name </th>
+                    <th> Value </th>
+                </tr>
+            </thead>
+    
+            <tbody id="snmpStatisticsByGet">
+                
+            </tbody>
+        </table>
+    
+        <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; SNMP Statistics by <span> snmp2_walk() </span> </p>
+        <table class="second-table">
+            <thead>
+                <tr>
+                    <th> Index </th>
+                    <th> Name </th>
+                    <th> Value </th>
+                </tr>
+            </thead>
+    
+            <tbody id="snmpStatisticsByWalk">
+                
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

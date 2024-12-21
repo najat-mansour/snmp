@@ -1,0 +1,20 @@
+section {
+    width: 840px;
+    margin: 30px auto 0px auto;
+}
+
+section input {
+    font-family: sans-serif;
+    font-size: 12pt;
+    width: 140px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+    border: solid 1px black;
+}
+
+section input:focus {
+    border: solid 1px blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+    outline: none;
+}

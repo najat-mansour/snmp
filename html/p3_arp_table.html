@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARP Table</title>
+
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/table.css">
+    <link rel="stylesheet" href="../css/search-section.css">
+    <link rel="stylesheet" href="../css/p3_arp_table.css">
+
+    <script defer type="text/javascript" src="../js/p3_arp_table.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1> ARP Phys. Table </h1>
+        <button class="refresh" style="left: 470px;"> Refresh </button>
+        <div class="control-buttons">
+            <button> Previous </button>
+            <button> Home </button>
+            <button> Next </button>
+        </div>
+    </header>
+
+    <section>
+        <input type="text" placeholder="MAC" id="txtMac"/>
+        <input type="text" placeholder="IP" id="txtIp"/>
+        <input type="text" placeholder="TTL" id="txtTtl"/>
+    </section>
+
+    <table>
+        <thead>
+            <tr>
+                <th> Index </th>
+                <th> MAC Address </th>
+                <th> IP Address </th>
+                <th> TTL </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            
+        </tbody>
+    </table>
+</body>
+</html>

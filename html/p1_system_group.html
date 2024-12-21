@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Group</title>
+
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/table.css">
+    <link rel="stylesheet" href="../css/system-group.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css" />
+
+    <script defer type="text/javascript" src="../js/p1_systm_group.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</head>
+<body>
+    <header>
+        <h1> System Group </h1>
+        <button class="refresh"> Refresh </button>
+        <div class="control-buttons">
+            <button> Previous </button>
+            <button> Home </button>
+            <button> Next </button>
+        </div>
+    </header>
+
+    <table>
+        <thead>
+            <tr>
+                <th> Key </th>
+                <th> Value </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Syetm Description</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Syetm Object ID</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Syetm Up Time</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Syetm Contact</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Syetm Name</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Syetm Location</td>
+                <td></td>
+            </tr>  
+        </tbody>
+    </table>
+
+    <div class="label">Edit Your Fields! </div>
+    <div class="editable-fields">
+        <input type="text" placeholder="System Contact" name="txtSysContact">
+        <input type="text" placeholder="System Name" name="txtSysName">
+        <input type="text" placeholder="System Location" name="txtSysLocation">
+
+        <button> Submit </button>
+        <button id="btnClear""> Clear </button>
+    </div>
+</body>
+</html>
